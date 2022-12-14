@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dudel</title>
+  <script src="plik2.js"></script>
+  <link href="style3.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">Kontakt</h1>
+            <ul class="menu">
+                <li><a class="active" href="index.html">strona główna</a></li>
+                <li><a href="lokalizacja.html">lokalizacja</a></li>
+                <li><a href="galeria.html">galeria</a>
+                <ul class="submenu">
+                        <li><a href="#">Białasy</a>
+                            <ul class="submenu2">
+                                <li><a href="#">Johny Sins</a></li>
+                                <li><a href="#">Giga Chad</a></li>
+                                <li><a href="#">Dwayne Johnson</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Ciemnoskórzy</a>
+                            <ul class="submenu2">
+                                <li><a href="#">Ricardo Milos</a></li>
+                                <li><a href="#">Black&White</a></li>
+                                <li><a href="#">N word pass</a></li>                                
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="kontakt.html">kontakt</a></li>
+                <li><a href="egzamin.html">egzaminy</a></li>
+                <div class="searchbar"> 
+                        <input type="search" placeholder="szukaj..."> </h4> </div> 
+                      </div>
+            </ul>
+        </nav>
+
+
+
+    </header>
+      <div id="amongas">
+      <h1 style="border: 2px solid white"></h1>
+      <h1> Totalny kontakt do nas</h1>
+      <h1 style="border: 2px solid white"></h1>
+
+    <div id="niglet"><center>
+            Jeżeli byłbyś zainteresowany kontaktem z naszą firmą lub byłby z nią jakiś problem zachęcam do kontaktu,<br>
+            odpowiednie informacje znajdziesz poniżej:<br>
+            adres gmail: kdutka@zs1.nowotarski.edu.pl<br>
+            nr tel: 162 123 184<br></center>
+    <main>  
+      <form class="form" id="contactForm" method="post" action="sznyt.php">
+        <div class="form-row">
+            <label for="name">Imię </label>
+            <input type="text" name="name" required pattern=.{3,} id="name" data-error-text="Wypełnij to pole">
+        </div>
+        <div class="form-row">
+            <label for="email">Mail</label>
+            <input type="email" name="email" required id="email" data-error-text="Nie poprawny email">
+        </div>
+        <div class="form-row">
+            <label for="message">Uwaga</label>
+            <textarea name="message" required data-error-text="Wypełnij pole" id="message"></textarea>
+        </div>
+        <div class="form-row">
+            <button type="submit" class="submit-btn">
+                Wyślij
+            </button>
+        </div></div></form>
+    </main>
+    <footer><center>
+        <img src="css/images/kontakt.gif">           
+  </footer>
+  </div></div></center>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+</html>

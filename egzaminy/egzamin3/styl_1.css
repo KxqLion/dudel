@@ -1,0 +1,28 @@
+body{
+    background-color: #F6E5DC;
+}
+header{
+    background-color: #2F180C;
+    text-align: center;
+    color: khaki;
+    height: 60px;
+}
+#lewy{
+    float: left;
+    width: 60%;
+}
+#prawy{
+    float: left;
+    padding: 70px
+}
+#dolny{
+    clear: both;
+    background-color: #D0B6A8;
+    text-align: center;
+    padding: 70px;
+}
+footer{
+    background-color: #2F180C;
+    color: khaki;
+    height: 60px
+}
